@@ -1,21 +1,38 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import ProdutoServicoService from "../../services/ProdutoServicoService";
-
+import AutonomaService from "../../services/AutonomaService.js"
 export default function Create() {
     const [codigo_produtoServico, setCodigo_produtoServico] = useState("");
     const [tipo_produtoServico, setTipo_produtoServico] = useState("");
     const [nome_produtoServico, setNome_produtoServico] = useState("");
     const [descricao_produtoServico, setDescricao_produtoServico] = useState("");
     const [imagemURL_produtoServico, setImagemURL_produtoServico] = useState("");
+    const [autonoma, setAutonoma] = useState({id_autonoma: "", nome_autonoma: ""})
+    const [autonomas, setAutonomas] = useState([]);
     const [preco_produtoServico, setPreco_produtoServico] = useState("");
     const { id } = useParams();
     const navigate = useNavigate();
 
+
+    const getAllAutonoma = () => {
+      AutonomaService.getAllAutonoma()
+      .then((response) => {
+        setAutonomas(response.data);
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+    }
+
+    useEffect(() => {
+      getAllAutonoma();
+    }, []);
+
   const criarOuEditarProdutoOuServico = (e) => {
     e.preventDefault();
 
-    const produtoServico = { codigo_produtoServico, tipo_produtoServico, nome_produtoServico, descricao_produtoServico, imagemURL_produtoServico, preco_produtoServico };
+    const produtoServico = { codigo_produtoServico, tipo_produtoServico, nome_produtoServico, descricao_produtoServico, imagemURL_produtoServico, preco_produtoServico, autonoma };
 
     console.log(produtoServico)
 
@@ -45,6 +62,10 @@ export default function Create() {
                 setDescricao_produtoServico(response.data.descricao_produtoServico);
                 setImagemURL_produtoServico(response.data.imagemURL_produtoServico);
                 setPreco_produtoServico(response.data.preco_produtoServico);
+                setAutonoma({
+                  id_autonoma: response.data.autonoma.id_autonoma,
+                  nome_autonoma: response.data.autonoma.nome_autonoma
+                });
             })
             .catch((error) => {
                 console.log(error);
@@ -130,6 +151,27 @@ export default function Create() {
             value={preco_produtoServico}
             onChange={(e) => setPreco_produtoServico(e.target.value)}
             />
+
+        <div className="form-group mb-3">
+          <label htmlFor="Autonoma" className="form-label">
+            Autonoma
+        </label>
+        <select
+          id_autonoma="AutonomaId_autonoma"
+          nome_autonoma="AutonomaId_autonoma"
+          className="form-select"
+          onChange={(e) =>
+          setAutonoma({ id_autonoma: Number.parseInt(e.target.value) })
+              }
+            >
+              <option value="DEFAULT" >{id? autonoma.nome_autonoma : 'Escolha um editora'}</option>
+              {autonomas.map((autonoma) => (
+                <option key={autonoma.id_autonoma} value={autonoma.id_autonoma}>
+                  {autonoma.nome_autonoma}
+                </option>
+              ))}
+            </select>
+          </div>
                     
             </div>
 
