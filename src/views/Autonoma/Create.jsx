@@ -99,7 +99,7 @@ export default function Create() {
             type="text"
             id="dataNasc_autonoma"
             className="form-control"
-            placeholder="Data de nascimento"
+            placeholder="Ex: 01/01/1001"
             value={dataNas_autonoma}
             onChange={(e) => setDataNas_autonoma(e.target.value)}
             />

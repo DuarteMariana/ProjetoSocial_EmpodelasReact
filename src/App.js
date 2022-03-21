@@ -10,6 +10,10 @@ import ProdutoServico from "./views/ProdutoServico";
 import ProdutoServicoCreate from "./views/ProdutoServico/Create";
 import Autonoma from "./views/Autonoma";
 import AutonomaCreate from "./views/Autonoma/Create";
+import Afiliada from "./views/Afiliada";
+import AfiliadaCreate from "./views/Afiliada/Create";
+import Afiliacao from "./views/Afiliacao/";
+import AfiliacaoCreate from "./views/Afiliacao/Create";
 
 import "./assets/css/contato.css";
 import "./assets/css/global.css";
@@ -34,6 +38,12 @@ function App() {
         <Route path="/Autonoma" element={<Autonoma/>} />
         <Route path="/Autonoma-Create" element={<AutonomaCreate/>} />
         <Route path="/Autonoma-Update/:id" element={<AutonomaCreate/>} />
+        <Route path="/Afiliada" element={<Afiliada/>} />
+        <Route path="/Afiliada-Create" element={<AfiliadaCreate/>} />
+        <Route path="/Afiliada-Update/:id" element={<AfiliadaCreate/>} />
+        <Route path="/Afiliacao" element={<Afiliacao/>} />
+        <Route path="/Afiliacao-Create" element={<AfiliacaoCreate/>} />
+        <Route path="/Afiliacao-Update/:id" element={<AfiliacaoCreate/>} />
 
       </Routes>
       <Footer />
