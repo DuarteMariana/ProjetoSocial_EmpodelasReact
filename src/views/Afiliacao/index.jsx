@@ -50,6 +50,7 @@ export default function Index() {
                             <button className="btn btn-danger" onClick={()=> deleteAfiliacao(afiliacao.id_afiliacao)} >Deletar</button>
                         </td>
                     </tr>
+                    
                     ))
                     
 }
