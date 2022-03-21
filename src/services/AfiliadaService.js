@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AFILIADA_API_URL="http://localhost:8080/afiliada/"; 
+const AFILIADA_API_URL="https://api-empodelas.herokuapp.com/afiliada/"; 
 
 class AfiliadaService {
 
@@ -11,13 +11,13 @@ class AfiliadaService {
         return axios.post(AFILIADA_API_URL, afiliada);
     }
     getAfiliadaById(id_afiliada) {
-        return axios.get(AFILIADA_API_URL + '/' + id_afiliada);
+        return axios.get(AFILIADA_API_URL + id_afiliada);
     }
     updateAfiliada (id_afiliada, afiliada) {
-        return axios.put(AFILIADA_API_URL + '/' + id_afiliada, afiliada);
+        return axios.put(AFILIADA_API_URL +  id_afiliada, afiliada);
     }
     deleteAfiliada (id_afiliada) {
-        return axios.delete(AFILIADA_API_URL + '/' + id_afiliada);
+        return axios.delete(AFILIADA_API_URL + id_afiliada);
     }
 
 }

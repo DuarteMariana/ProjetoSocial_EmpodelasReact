@@ -23,6 +23,7 @@ export default function Create() {
         ProdutoServicoService.updateProdutoServico(id, produtoServico)
         .then((response) => {
             navigate("/ProdutoServico")
+            console.log(id);
         })
 
     } else {

@@ -21,18 +21,6 @@ export default function Menu() {
                         <li className="nav-item">
                             <Link to="/Contato" id="linkNav" className="nav-link text-dark">Contato</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/ProdutoServico" id="linkNav" className="nav-link text-dark">Produtos e serviços</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/Autonoma" id="linkNav" className="nav-link text-dark">Autonoma</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/Afiliada" id="linkNav" className="nav-link text-dark">Afiliada</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/Afiliacao" id="linkNav" className="nav-link text-dark">Afiliacao</Link>
-                        </li>
                     </ul>
                 </div>
             </div>

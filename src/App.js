@@ -6,6 +6,7 @@ import Somos from "./views/Somos";
 import Contato from "./views/Contato";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
+import Admin from "./views/Admin";
 import ProdutoServico from "./views/ProdutoServico";
 import ProdutoServicoCreate from "./views/ProdutoServico/Create";
 import Autonoma from "./views/Autonoma";
@@ -14,6 +15,7 @@ import Afiliada from "./views/Afiliada";
 import AfiliadaCreate from "./views/Afiliada/Create";
 import Afiliacao from "./views/Afiliacao/";
 import AfiliacaoCreate from "./views/Afiliacao/Create";
+
 
 import "./assets/css/contato.css";
 import "./assets/css/global.css";
@@ -32,6 +34,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/Somos" element={<Somos/>} />
         <Route path="/Contato" element={<Contato/>} />
+        <Route path="/Admin" element={<Admin/>} />
         <Route path="/ProdutoServico-Create" element={<ProdutoServicoCreate/>} />
         <Route path="/ProdutoServico-Update/:id" element={<ProdutoServicoCreate/>} />
         <Route path="/ProdutoServico" element={<ProdutoServico/>} />
