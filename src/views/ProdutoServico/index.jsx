@@ -66,5 +66,7 @@ export default function Index() {
             </table>
           
         </div>
+        
+        
     );
 }

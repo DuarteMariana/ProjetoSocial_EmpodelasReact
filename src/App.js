@@ -8,6 +8,7 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import Admin from "./views/Admin";
 import ProdutoServico from "./views/ProdutoServico";
+import ProdutoServicoUsers from "./views/ProdutoServico/indexUsers";
 import ProdutoServicoCreate from "./views/ProdutoServico/Create";
 import Autonoma from "./views/Autonoma";
 import AutonomaCreate from "./views/Autonoma/Create";
@@ -15,7 +16,7 @@ import Afiliada from "./views/Afiliada";
 import AfiliadaCreate from "./views/Afiliada/Create";
 import Afiliacao from "./views/Afiliacao/";
 import AfiliacaoCreate from "./views/Afiliacao/Create";
-
+import ViewProdutoServico from "./views/ProdutoServico/ViewProdutoServico";
 
 import "./assets/css/contato.css";
 import "./assets/css/global.css";
@@ -35,9 +36,11 @@ function App() {
         <Route path="/Somos" element={<Somos/>} />
         <Route path="/Contato" element={<Contato/>} />
         <Route path="/Admin" element={<Admin/>} />
+        <Route path="/ProdutoServico-users" element={<ProdutoServicoUsers/>} />
         <Route path="/ProdutoServico-Create" element={<ProdutoServicoCreate/>} />
         <Route path="/ProdutoServico-Update/:id" element={<ProdutoServicoCreate/>} />
         <Route path="/ProdutoServico" element={<ProdutoServico/>} />
+        <Route path="/ProdutoServico_view/:id" element={<ViewProdutoServico />} />
         <Route path="/Autonoma" element={<Autonoma/>} />
         <Route path="/Autonoma-Create" element={<AutonomaCreate/>} />
         <Route path="/Autonoma-Update/:id" element={<AutonomaCreate/>} />

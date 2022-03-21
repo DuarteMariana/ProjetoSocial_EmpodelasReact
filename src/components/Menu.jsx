@@ -16,11 +16,15 @@ export default function Menu() {
                             <Link to="/" className="nav-link text-dark">Home</Link>
                         </li>
                         <li className="nav-item">
+                        <Link to="/ProdutoServico-users" className="nav-link text-dark">Produtos e Serviços</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to="/Somos" className="nav-link text-dark">Quem Somos</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/Contato" id="linkNav" className="nav-link text-dark">Contato</Link>
                         </li>
+                        
                     </ul>
                 </div>
             </div>
