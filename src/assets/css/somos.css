@@ -1,0 +1,53 @@
+.sobrenos_somos{
+    font-family: 'questrial';
+    font-size: 40px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.accordion{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-group{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.boxNos{
+    margin-bottom: 100px;
+    height: auto;
+}
+
+
+/*-------------------- MEDIAS QUERY --------------------*/
+
+
+
+@media (min-width: 320px){
+    .card img{
+        width: 250px;
+    }
+
+    .card-group{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 600px){
+    .card img{
+        width: 100%;
+    }
+}

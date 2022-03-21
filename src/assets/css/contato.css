@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#boxForm{
+    border: solid red 1px;
+    margin: 20px 0px;
+    padding: 25px;
+    width: 70%;
+    border: 1px solid rgb(255, 230, 230);
+    box-shadow: 2px 1px 15px rgb(251, 255, 218);
+}
+
+.faleConosco{
+    font-size: 20pt;
+    margin-bottom: 30px;        
+}
+
+
+/*-------------------- MEDIAS QUERY --------------------*/
+
+@media (min-width: 320px){
+    .faleConosco{
+        font-size: 20pt;
+    }
+}
+
+@media (min-width: 600px){
+    .faleConosco{
+        font-size: 25pt;
+    }
+}
+
+@media (min-width: 936px){
+    .faleConosco{
+        font-size: 35pt;        
+    }
+}

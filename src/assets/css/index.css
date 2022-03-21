@@ -1,0 +1,380 @@
+/*----------------------SEÇÃO 1   /   HOME - SOBRE NÓS--------------------*/
+
+#secao1{
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logoDestaque{
+    margin: 5px 0px 29px 0px;
+    width: 100%;
+  }
+  
+  .logoDestaque img{
+    width: 900px;
+  }
+  
+  #texto1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sobrenos{
+    font-family: 'questrial';
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    margin: 10px 0px;
+    padding: 80px 0px;
+  }
+  
+  /*----------------------FINAL SEÇÃO 1 --------------------*/
+  /*-----------------DIV BOTÃO CADASTRE-SE  /  HOME -----------------*/
+  #MainCadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 80px 0px;
+  }
+  
+  #MainCadastrar h3{
+    font-family: 'questrial';
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  
+  #fraseMain{
+    padding: 20px;
+  }
+  
+  #botaoCadastro{
+    text-align: center;
+    padding: 20px;
+    background-color: #ff1616;
+    height: 70px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #botaoCadastro:hover{
+    background-color: #b31010;
+  }
+  
+  #botaoCadastro a{
+    font-family: 'questrial';
+    text-decoration: none;
+    font-size: 24pt;
+    color: white;
+  }
+  
+  /*-----------------FIM DIV BOTÃO CADASTRE-SE -----------------*/
+  /*-------------------SEÇÃO 2  /  DEPOIMENTO - HOME-------------------*/
+  
+  #secao2{
+    height: auto;
+    margin-top: 20px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+  }
+  
+  #boxDepoimento{
+    height: auto;
+    
+    padding: 40px 0px;
+  }
+  
+  #tituloDepo{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #tituloDepo h1{
+      font-family: 'questrial';
+      font-size: 50px;
+      text-align: center;
+      padding: 10px;
+      color: black;
+  }
+  
+  #textoDepo{
+    font-size: 11pt;
+    width: 100%;
+    height:auto;
+    padding: 0px 20px;
+  }
+  
+  #textoDepo p {
+    /* font-size: 12pt; */
+    text-align: center;
+    padding: 40px 0px;
+  }
+  
+  .imgSecao{
+    width: 100%;
+    border: 1px solid rgb(255, 230, 230);
+    background-color: #fff7f7;
+    margin: 150px 0px 60px 0px;
+    box-shadow: 2px 1px 15px rgb(255, 218, 218);
+  }
+  
+  .imgSecao img{
+    width: 800px;
+    margin: 40px 0px 20px 0px;
+  }
+  
+  .textoImg{
+    margin: 25px 0px 40px 0px;
+    font-size: 20pt;
+  }
+  
+  #bt1{
+    padding: 15px;
+    color: #f1f1f1;
+    margin-right: 20px;
+    width: 160px;
+  
+    margin-top: 30px;
+  }
+  
+  #bt1 a{
+    font-family: 'questrial';
+    font-size: 20pt;
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  #bt1:hover{
+    background-color: #b31010;
+    box-shadow: 0px 5px 20px rgb(255, 129, 129);
+  }
+  
+  /*-----------------FIM SEÇÃO 2  /  DEPOIMENTO - HOME-----------------*/
+  /*------------------- formulario contato  - CONTATO ---------------------*/
+  
+  
+  .faleConosco{
+    text-align: center;
+    font-family: 'questrial';
+    font-size: 35pt;
+  }
+  
+  form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    font-size: 8pt;
+    background-color: #ffde59;
+  }
+  
+  form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffde59;
+  }
+  
+  form input[type=submit]{
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffde59;
+    width: 30%;
+  }
+  
+  form input[type=submit]:hover{
+    background-color: #ffde59;
+  }
+  
+  
+  
+  
+  
+  /*-------------------- MEDIAS QUERY --------------------*/
+  
+  @media (min-width: 320px){
+  
+    .banner_home img{
+      width :350px;
+   } 
+  
+    .logoDestaque img{
+      width: 350px;
+    }
+  
+    .sobrenos{
+      font-size: 18pt;
+      padding: 60px 40px;
+    }
+  
+    #tituloDepo h1{
+      font-size: 30px;
+    }
+  
+    #textoDepo{
+      font-size: 11pt;
+    }
+  
+    #MainCadastrar h3{
+      font-size: 20px;  
+    }
+  
+    #botaoCadastro{
+      height: 50px;
+      width: 200px; 
+    }
+  
+    #botaoCadastro a{
+      font-size: 12pt;
+    }
+  
+    .imgSecao img{
+      width: 400px;
+    }
+    
+    .textoImg{
+      font-size: 10pt;
+    }
+  
+    .div-tres-carneiros{
+      width: 500px;
+  
+    }
+  
+    
+    .container h1{
+    font-size: 20px;
+    }
+  
+    .container h3{
+      font-size: 14px;
+    }
+    
+    .container p{
+      font-size: 12px;
+    }
+  
+  @media (min-width: 600px){
+     .banner_home img{
+         width :750px;
+     } 
+    .logoDestaque img{
+      width: 550px;
+    }
+  
+    #tituloDepo h1{
+        font-size: 35px;
+    }
+    
+    .sobrenos{
+      font-size: 27px;
+      padding: 80px 0px;
+    }
+  
+    #textoDepo{
+      font-size: 15pt;
+    }
+  
+    #MainCadastrar h3{
+      font-size: 25px;
+    }
+  
+    
+    #botaoCadastro{
+      height: 70px;
+      width: 300px;
+    }
+  
+    #botaoCadastro a{
+      font-size: 25pt;
+    }
+  
+    .imgSecao img{
+      width: 550px;
+    }
+    
+    .textoImg{
+      font-size: 12pt;
+    }
+  
+    .div-tres-carneiros{
+      width: 750px;
+      
+    }
+  
+    .container h1{
+      font-size: 28px;
+    }
+  
+    .container h3{
+      font-size: 22px;
+    }
+    .container p{
+      font-size: 20px;
+    }
+  
+  }
+  
+  @media (min-width: 936px){
+  
+    .banner_home img{
+      width: 1000px;
+    }
+  
+    .sobrenos{
+      font-size: 35px;
+    }
+  
+    .logoDestaque img{
+      width: 700px;
+    }
+  
+    #tituloDepo h1{
+      font-size: 50px;
+  }
+  
+    #textoDepo{
+      font-size: 14pt;
+    }
+    
+    .imgSecao img{
+      width: 800px;
+    }
+    
+    .textoImg{
+      font-size: 16pt;
+    }
+  
+    .div-tres-carneiros{
+      width: 1000px;
+      
+    }
+  
+    
+    .container h1{
+      font-size: 38px;
+    }
+  
+    .container h3{
+      font-size: 32px;
+    }
+  
+    .container p{
+      font-size: 22px;
+    }
+}
+}

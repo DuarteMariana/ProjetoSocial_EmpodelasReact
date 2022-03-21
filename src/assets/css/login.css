@@ -1,0 +1,19 @@
+#centralizar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#fontForm {
+   
+    font-size: 20px;
+}
+
+#fontFormTi {
+    font-family: 'Heavitas';
+    font-size: 45px;
+    text-align: center;
+}
