@@ -1,0 +1,27 @@
+/*----------------------SEÇÃO VIDEO youtube   /   HOME--------------------*/
+.secaoVideo{
+    display: flex;
+    padding: 25px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0px;
+  }
+  
+  .textoVideo{
+    width: 600px;
+    height: 315px;
+    padding: 0px 10px 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .textoVideo p {
+    font-size: 30pt;
+  }
+  
+  .textoVideo h6 {
+    color: #b31010;
+  
+  }

@@ -31,7 +31,8 @@ import "./assets/css/login.css";
 import "./assets/css/produto.css";
 import "./assets/css/site.css";
 import "./assets/css/somos.css";
-import "./assets/secaoProduto.css"
+import "./assets/secaoProduto.css";
+import "./assets/css/video.css";
 
 
 function App() {

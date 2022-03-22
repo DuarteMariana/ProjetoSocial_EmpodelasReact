@@ -4,7 +4,20 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <>
-            
+        <section className="secaoVideo">
+            <iframe className="videoYoutube" width="560" height="315" src="https://www.youtube.com/embed/m0MeryPVWRY" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <div className="textoVideo">
+                <p>
+                    Uma solução para mulheres
+                    autônomas e mulheres que não nenhum tipo de renda!
+                </p>
+                <h6><br />← VEJA O VÍDEO AO LADO E ENTENDA O PROJETO!</h6>
+            </div>
+        </section>
 
         <section id="secao1">
             <main className="box-1">
@@ -14,11 +27,9 @@ export default function Home() {
                 <div className="banner_home">
                     <img src="./img/banner_empodelas_home.png" alt="banner"/>
                 </div>
-
-       
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
-                        <p className="lead">Feito para as mulheres de:</p>
+                        <p className="titulo1">Feito para as mulheres de:</p>
                         <h1 className="ibura">Ibura - Três Carneiros, Recife.</h1>
                         <h3>Como funciona?</h3>
                         <p>
