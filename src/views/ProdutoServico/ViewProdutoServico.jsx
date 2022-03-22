@@ -37,7 +37,7 @@ export default function ViewProdutoServico() {
   return (
     <main>
         <div id='card' className='container row'>
-            <div className='col' id="imagem_produto"><img src={imagemURL_produtoServico}/></div>
+            <div className='col' id="imagem_produto"><img src={imagemURL_produtoServico} alt=""/></div>
             <div className='col'>
                 <label>{tipo_produtoServico}</label>
                 <h1>{nome_produtoServico}</h1>

@@ -5,9 +5,9 @@ export default function Contato() {
         <>
         <main>
             <div className="container" id="boxForm">
-                <h1 className="faleConosco">Fale Conosco </h1>
+                <h1 className="faleConosco">Fale Conosco</h1>
                 <div className="box form-group">
-                    <form style={{textAlign:"center"}}>
+                    <form action="https://formsubmit.co/marianaduarte2014@outlook.com" method="POST" style={{textAlign:"center"}}>
                         <input type="text" style={{fontSize:"12pt"}} className="form-control" id="name" name="name" size="30" placeholder="Nome Completo"/>
                         <br/><br/>
                         <input type="email" style={{fontSize:"12pt"}} className="form-control" id="email" name="email" size="30" placeholder="E-mail"/>
