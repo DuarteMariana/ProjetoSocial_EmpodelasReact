@@ -1,4 +1,13 @@
+.sub-topo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
 
+.banner_home img{
+  width: 60%;
+}
 
 #menu{
   background-color: #FFDE59;
@@ -347,7 +356,7 @@ li > a:hover{
   @media (min-width: 600px){  /*-- 600 --------*/
      
     .banner_home img{
-         width :750px;
+         width :600px;
     }
 
     .logoDestaque img{
@@ -409,7 +418,7 @@ li > a:hover{
   @media (min-width: 936px){ /*-- 936 --------*/
   
     .banner_home img{
-      width: 1000px;
+      width:700px;
     }
   
     .sobrenos{

@@ -52,7 +52,7 @@ function Login(){
                 <label>Senha: <br />
                     <input type="password" name="" id="password" />
                 </label><br />
-                <label>Perfil: 
+                <label>Perfil: <br />
                     <select name="rol" id="rol">
                         <option value="autonoma">Autônoma</option>
                         <option value="afiliada">Afiliada</option>

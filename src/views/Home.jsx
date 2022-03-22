@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <>
+        <div className="sub-topo">
+            <div className="banner_home">
+                        <img src="./img/banner_empodelas_home.png" alt="banner"/>
+            </div>
+        </div>
         <section className="secaoVideo">
             <iframe className="videoYoutube" width="560" height="315" src="https://www.youtube.com/embed/m0MeryPVWRY" 
             title="YouTube video player" frameborder="0" 
@@ -23,9 +28,6 @@ export default function Home() {
             <main className="box-1">
                 <div className="logoDestaque">
                     <img src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
-                </div>
-                <div className="banner_home">
-                    <img src="./img/banner_empodelas_home.png" alt="banner"/>
                 </div>
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
