@@ -23,5 +23,36 @@
   
   .textoVideo h6 {
     color: #b31010;
-  
+  }
+
+
+
+
+  @media(max-width: 500px){
+    .textoVideo p {
+        font-size: 10pt;
+      }
+    
+  }
+
+
+  @media(max-width: 700px){
+    .secaoVideo{
+        display: block;
+      }
+
+    .textoVideo{
+        width: auto;
+        padding: 0px 10px 0px 30px;
+      }
+
+      .textoVideo h6 {
+        display: none;
+      }
+  }
+
+  @media(max-width: 900px){
+    .textoVideo p {
+        font-size: 20pt;
+      }
   }

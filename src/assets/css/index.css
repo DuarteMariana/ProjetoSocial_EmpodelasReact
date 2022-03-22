@@ -265,11 +265,12 @@ li > a:hover{
   
     .logoDestaque img{
       width: 350px;
+      padding-top: 10px;
     }
   
     .sobrenos{
       font-size: 18pt;
-      padding: 60px 40px;
+      padding: 10px 40px;
     }
   
     #tituloDepo h1{
