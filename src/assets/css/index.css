@@ -55,12 +55,13 @@ li > a:hover{
   }
   
   .logoDestaque{
-    margin: 35px 0px 150px 0px;
+    margin: 30px 0px 150px 0px;
     width: 100%;
   }
   
   .logoDestaque img{
     width: 900px;
+    
   }
 
   .banner_home{
@@ -80,7 +81,53 @@ li > a:hover{
     text-align: center;
     color: black;
     margin: 10px 0px;
-    padding: 80px 0px;
+    padding: 10px 0;
+    margin-top: 5px;
+    
+    
+   
+  }
+  .jumbotron-pre{
+    background-image: url('C:\Users\Remakker\Desktop\React-Empodelas2\ProjetoSocial_EmpodelasReact\public\img\trescarneirosvistodecima.jpg');
+    width: 100%;
+    height: auto;
+    font-family:'Zoika';
+    justify-content: center;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: medium;
+    color: #f8f2f2;
+      
+    }
+  #informacoes{
+    padding: 30px;
+    margin-top: 30px;
+    font-family: 'playlist-script';
+  }
+  #titulosPF{
+    width: 100%;
+    margin-top: 20px;
+    color: #ff1616;
+    font-family:'playlist-script';
+    background-color: #FFDE59;
+    padding: 10px 0px;
+    justify-content: center;
+    display: flex;
+    
+  }
+  #Pperguntas{
+    margin-left: 40px;
+    
+    text-align: center;
+    font-family:'questrial';
+    font-size: 20px;
+    display: flex;
+    margin-right: 30px;
+   
+  }
+  
+  .display-3{
+    font-size: 20px;
   }
   
   /*----------------------FINAL SEÇÃO 1 --------------------*/

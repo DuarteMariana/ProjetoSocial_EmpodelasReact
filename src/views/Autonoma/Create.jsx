@@ -71,6 +71,7 @@ export default function Create() {
             <h2 className="text-center">{id ? "Editar" : "Criar"}</h2>
           </legend>
           <div className="mb-3">
+          
             <label htmlFor="Nome" className="form-label">Nome:</label>
             <input
               type="text"

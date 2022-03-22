@@ -46,12 +46,39 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
+                <div className="conteiner">
+                    <h1 id="informacoes">Saiba Como Participar...</h1>
+                    <h2 id="titulosPF">Sou empreendedora e como faço para participar do EmpoDelas?</h2>
+                    <p id="Pperguntas">
+                        Se você é residente do bairro Três carneiros, tem um pequeno médio ou grande
+                        empreendimento, e gostaria de ter seu negócio divulgado, poderá acessar nosso pré cadrasto 
+                        preencha as informações a aguarde a confirmação de cadastramento.
+                    </p>
+                    <h2 id="titulosPF">Não sou empreendedora, mas gostaria de participar do EmpoDelas, o que faço?</h2>
+                    <p id="Pperguntas">
+                        Se você é residente do bairro Três carneiros, e gostaria de divulgar os produtos ou serviços 
+                        de negócios de empreendedoras da localidade, acesse o pré cadrasto de afiliadas, inscreva-se e aguarde a confirmação e maiores informações.
+                       
+                    </p>
+                    <h2 id="titulosPF">Parceiros e Patrocinadores</h2>
+                    <p id="Pperguntas">
+                        Gostou da iniciativa e gostaria de ajudar mais no projeto? 
+                        entre em contato com um
+                        dos organizadores para conhecer e obter mais informações.
+                       
+                    </p>
+                </div>
        
-               <div id="fraseMain" className="container-fluid">
-                    <h1 className="sobrenos">Nada mais forte do que uma mulher que se empodera!<br/> Seja uma "EmpoDelas"</h1>
-                    <h3 className="textoConvite"><strong>GOSTARIA DE PARTICIPAR DESSE PROJETO? FAÇA O PRÉ-CADASTRO!</strong></h3>
+                <div class="jumbotron-pre">
+                    <h1 class="display-6">GOSTARIA DE PARTICIPAR DESSE PROJETO? </h1>
+                    <p class="lead"></p>
+                    <hr class="my-4"/>
+                    <h3 className="textoConvite"><strong> FAÇA O PRÉ-CADASTRO!</strong></h3>
+                    
+                </div>
+                <div>
                     <button type="button" id="bt1" className="btn btn-danger"><Link to="/Afiliada_cadastro">Afiliada</Link></button>
-                    <button type="button" id="bt1" className="btn btn-danger"><Link to="/Autonoma_cadastro">Autônoma</Link></button>
+                    <button type="button" id="bt1" className="btn btn-danger"><Link to="/Autonoma_cadastro">Autônoma</Link></button>                    
                 </div>
             </main>
         </section>

@@ -77,6 +77,7 @@ export default function CreateUsers() {
           </div>
           </legend>
           <div className="mb-3">
+          <h1 className="sobrenos">Nada mais forte do que uma mulher que se empodera!<br/> Seja uma "EmpoDelas"</h1>
             <label htmlFor="Nome" className="form-label">Nome:</label>
             <input
               type="text"
