@@ -1,5 +1,13 @@
+
+
+@font-face{
+    font-family: 'questrial';
+    src: url('../fontes/questrial.ttf');
+}
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'questrial';
 }
 

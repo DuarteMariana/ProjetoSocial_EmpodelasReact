@@ -9,12 +9,12 @@
   
   @font-face{
     font-family: 'playlist-script';
-    src: url('./fontes/playlist-script.otf');
+    src: url('../fontes/playlist-script.otf');
   }
   
   @font-face{
     font-family: 'questrial';
-    src: url('./fontes/questrial.ttf');
+    src: url('../fontes/questrial.ttf');
   }
   
   #header1{

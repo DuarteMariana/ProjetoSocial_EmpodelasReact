@@ -64,13 +64,12 @@ li > a:hover{
   }
   
   .logoDestaque{
-    margin: 30px 0px 150px 0px;
+    margin: 30px 0px 100px 0px;
     width: 100%;
   }
   
   .logoDestaque img{
     width: 900px;
-    
   }
 
   .banner_home{
@@ -97,7 +96,7 @@ li > a:hover{
    
   }
   .jumbotron-pre{
-    background-image: url('C:\Users\Remakker\Desktop\React-Empodelas2\ProjetoSocial_EmpodelasReact\public\img\trescarneirosvistodecima.jpg');
+
     width: 100%;
     height: auto;
     font-family:'Zoika';
@@ -111,15 +110,16 @@ li > a:hover{
   #informacoes{
     padding: 30px;
     margin-top: 30px;
-    font-family: 'playlist-script';
+    font-size: 40px;
   }
+  
   #titulosPF{
     width: 100%;
     margin-top: 20px;
     color: #ff1616;
-    font-family:'playlist-script';
     background-color: #FFDE59;
-    padding: 10px 0px;
+    font-size: 30px;
+    padding: 30px 0px;
     justify-content: center;
     display: flex;
     
@@ -320,8 +320,12 @@ li > a:hover{
     .banner_home img{
       width :350px;
    } 
+   .home_texto_p_como_funciona{
+    font-size: 30px;
+   }
   
     .logoDestaque img{
+      
       width: 350px;
       padding-top: 10px;
     }

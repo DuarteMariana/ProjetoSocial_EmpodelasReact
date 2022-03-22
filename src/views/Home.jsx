@@ -27,19 +27,18 @@ export default function Home() {
         <section id="secao1">
             <main className="box-1">
                 <div className="logoDestaque">
-                    <img src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
+                <h1 className="titulo1">Feito para as mulheres de:</h1>
+                <p className="ibura">Ibura - Três Carneiros, Recife.</p>
+                    <img className="img_empodelas_logo_home" src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
                 </div>
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
-                        <p className="titulo1">Feito para as mulheres de:</p>
-                        <h1 className="ibura">Ibura - Três Carneiros, Recife.</h1>
-                        <h3>Como funciona?</h3>
-                        <p>
+                        
+                        <h3 className="home_h3_como_func">Como funciona?</h3>
+                        <p style={{textAlign:"justify"}} className="home_texto_p_como_funciona">
                         Esse projeto foi criado para você mulher empodederada!
                         Para você que busca oportunidades, e não se sente apoiada. 
                         Te apresentaremos o "Empodelas" para te fortalecer nesta caminhada!
-                        </p>
-                        <p>
                         O Empodelas foi criado pensando no grupo minoritário "mulheres" que traz na sua essencia o desejo de 
                         transformar realidades através de ferramentas da tecnologia. Inicialmente desenvolvido para apoiar 
                         as mulheres residêntes do bairro Três Carneiros, Ibura - Recife/PE, formando uma rede de empreendedorismo 
