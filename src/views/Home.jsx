@@ -22,7 +22,16 @@ export default function Home() {
                         <h1 className="ibura">Ibura - Três Carneiros, Recife.</h1>
                         <h3>Como funciona?</h3>
                         <p>
-                        Criamos o site "EmpoDelas" com o intuito de gerar uma rede de apoio entre as mulheres do bairro de Três Carneiros, Ibura - Recife/PE (empreendedoras ou não), para que elas possam divulgar seus produtos e serviços, facilitando a movimentação do comércio e  gerando novas oportunidades para outras mulheres que estão sem fonte de renda no momento atual.
+                        Esse projeto foi criado para você mulher empodederada!
+                        Para você que busca oportunidades, e não se sente apoiada. 
+                        Te apresentaremos o "Empodelas" para te fortalecer nesta caminhada!
+                        </p>
+                        <p>
+                        O Empodelas foi criado pensando no grupo minoritário "mulheres" que traz na sua essencia o desejo de 
+                        transformar realidades através de ferramentas da tecnologia. Inicialmente desenvolvido para apoiar 
+                        as mulheres residêntes do bairro Três Carneiros, Ibura - Recife/PE, formando uma rede de empreendedorismo 
+                        para a divulgar seus produtos e serviços, facilitando a movimentação do comércio e 
+                        gerando novas oportunidades para outras mulheres que estão em situação de vulnerabilidade.
                         </p>
                     </div>
                 </div>
