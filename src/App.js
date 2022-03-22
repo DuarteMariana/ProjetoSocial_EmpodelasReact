@@ -33,6 +33,7 @@ import "./assets/css/site.css";
 import "./assets/css/somos.css";
 import "./assets/secaoProduto.css";
 import "./assets/css/video.css";
+import "./assets/css/pageLogin.css";
 
 
 function App() {
