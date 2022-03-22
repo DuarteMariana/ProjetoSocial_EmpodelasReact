@@ -22,6 +22,8 @@ import CreateUsersAfiliada from "./views/Afiliada/CreateUsers";
 import CreateUsersAutonoma from "./views/Autonoma/CreateUsers";
 import Concluido from "./views/Concluido";
 
+import Login from "./views/Auth/Login";
+
 import "./assets/css/contato.css";
 import "./assets/css/global.css";
 import "./assets/css/index.css";
@@ -58,6 +60,8 @@ function App() {
         <Route path="/Afiliada_cadastro" element={<CreateUsersAfiliada></CreateUsersAfiliada>}/>
         <Route path="/Autonoma_cadastro" element={<CreateUsersAutonoma></CreateUsersAutonoma>}/>
         <Route path="/cadastro_concluido" element={<Concluido></Concluido>}/>
+
+        <Route path="/Login" element={<Login></Login>}/>
       </Routes>
       <Footer />
     </BrowserRouter>
