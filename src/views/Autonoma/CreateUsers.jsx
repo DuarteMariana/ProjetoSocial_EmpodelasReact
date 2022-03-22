@@ -70,9 +70,11 @@ export default function CreateUsers() {
         
       <form>
         <fieldset>
-          <legend>
-            <h2 className="text-center" style={{fontSize: "40px"}}>Autonoma - pré cadastro</h2>
-            <img style={{marginLeft: "20%", marginRight:"20%"}} src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
+        <legend style={{textAlign: "center"}}>
+            <h2 className="text-center" style={{fontSize: "40px"}}>Autônoma - pré cadastro</h2>
+            <div className="logoDestaque">
+                    <img src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
+          </div>
           </legend>
           <div className="mb-3">
             <label htmlFor="Nome" className="form-label">Nome:</label>

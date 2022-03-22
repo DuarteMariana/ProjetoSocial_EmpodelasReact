@@ -25,10 +25,10 @@ export default function Index() {
     }
 
     return (
-        <div className="table-responsive-sm">
+        <div className="table-responsive">
             <br/>
             <Link to="/Afiliacao-Create" className="btn btn-warning">Cadastrar Afiliação</Link>
-            <table id="example" className="display dataTable dtr-inline table table-hover" cellspacing="0" width="100%" role="grid" aria-describedby="example_info" style={{width:"100%", tableLayout:"fixed"}}>
+            <table className="table">
                 <thead>
                     <tr>
                         <th>Id</th>

@@ -63,10 +63,13 @@ export default function CreateUsers() {
     <div className="container py-3">
       <form>
         <fieldset>
-          <legend>
+          <legend style={{textAlign: "center"}}>
             <h2 className="text-center" style={{fontSize: "40px"}}>Afiliada - pré cadastro</h2>
-            <img style={{marginLeft: "20%", marginRight:"20%"}} src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
+            <div className="logoDestaque">
+                    <img src="./img/imgDestaque.jpg" alt="imagem destaque da logo" />
+          </div>
           </legend>
+          
           <div className="mb-3">
             <label htmlFor="Nome" className="form-label">Nome:</label>
             <input

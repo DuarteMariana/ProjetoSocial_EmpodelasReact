@@ -27,10 +27,10 @@ export default function Index() {
     
 
     return (
-        <div className="table-responsive-sm">
+        <div className="table-responsive">
             <br/>
             <Link to="/Afiliada-Create" className="btn btn-warning">Cadastrar Afiliada</Link>
-            <table id="example" className="display dataTable dtr-inline table table-hover" cellspacing="0" width="100%" role="grid" aria-describedby="example_info" style={{width:"100%", tableLayout:"fixed"}}>
+            <table className="table">
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -38,7 +38,7 @@ export default function Index() {
                         <th>Sobrenome</th>
                         <th>Email</th>
                         <th>Data de nascimento</th>
-                        <th>Numero de telefone</th>
+                        <th>Telefone</th>
                         <th>Endereço</th>
                         <th>Cep</th>
                         <th>Descrição</th>
