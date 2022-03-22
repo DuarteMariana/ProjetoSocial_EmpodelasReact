@@ -20,12 +20,13 @@ import ViewProdutoServico from "./views/ProdutoServico/ViewProdutoServico";
 
 import "./assets/css/contato.css";
 import "./assets/css/global.css";
-
 import "./assets/css/index.css";
 import "./assets/css/login.css";
 import "./assets/css/produto.css";
 import "./assets/css/site.css";
 import "./assets/css/somos.css";
+import "./assets/secaoProduto.css"
+
 
 function App() {
   return (

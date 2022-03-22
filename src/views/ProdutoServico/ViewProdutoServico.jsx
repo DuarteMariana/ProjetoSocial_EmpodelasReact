@@ -32,21 +32,22 @@ export default function ViewProdutoServico() {
     }, [id]);
 
   return (
-    <div className='container row'>
-        <div className='col'><img src={imagemURL_produtoServico}/></div>
-        <div className='col'>
-            <label>{tipo_produtoServico}</label>
-            <h1>{nome_produtoServico}</h1>
-            <label>Preço</label>
-            <p>R${preco_produtoServico}</p>
-            <label>Descrição:</label>
-            <p>{descricao_produtoServico}</p>
-            <label>Vendedora</label>
-            <p>Autonoma</p>
-            <button className='btn btn-success'>Falar com a Autônoma</button>
+    <main>
+        <div id='card' className='container row'>
+            <div className='col' id="imagem_produto"><img src={imagemURL_produtoServico}/></div>
+            <div className='col'>
+                <label>{tipo_produtoServico}</label>
+                <h1>{nome_produtoServico}</h1>
+                <hr />
+                <label>Preço</label>
+                <p>R${preco_produtoServico}</p>
+                <label>Descrição:</label>
+                <p>{descricao_produtoServico}</p>
+                <label>Vendedora</label>
+                <p>Autonoma</p>
+                <button className='btn btn-success'>Falar com a Autônoma</button>
+            </div>       
         </div>
-
-        
-    </div>
+    </main>
   );
 }

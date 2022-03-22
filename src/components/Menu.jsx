@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function Menu() {
     return (
-        <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav id="menu" className="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div className="container">
-                <Link to="/" className="navbar-brand" id="texto-logo">EmpoDelas</Link>
+                <Link to="/" className="navbar-brand nav" id="texto-logo">EmpoDelas</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

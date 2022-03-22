@@ -1,3 +1,49 @@
+
+
+#menu{
+  background-color: #FFDE59;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  height: auto;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none; 
+  margin-left: 75px; 
+}
+
+nav > ul > li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+li > a{
+  text-decoration: none;
+  font-family: 'questrial';
+  font-size: 15pt;
+  white-space: nowrap;
+}
+
+li > a:hover{
+  color: #ff1616;
+  text-decoration: none;
+  font-weight: bold;
+  border-top: #ff1616 solid 3px;
+}
+
+
+
+
+
 /*----------------------SEÇÃO 1   /   HOME - SOBRE NÓS--------------------*/
 
 #secao1{
@@ -12,12 +58,16 @@
   }
   
   .logoDestaque{
-    margin: 5px 0px 29px 0px;
+    margin: 15px 0px 60px 0px;
     width: 100%;
   }
   
   .logoDestaque img{
     width: 900px;
+  }
+
+  .banner_home{
+    margin-bottom: 70px;
   }
   
   #texto1{
@@ -269,9 +319,11 @@
     }
   
   @media (min-width: 600px){
-     .banner_home img{
+     
+    .banner_home img{
          width :750px;
-     } 
+    }
+
     .logoDestaque img{
       width: 550px;
     }
