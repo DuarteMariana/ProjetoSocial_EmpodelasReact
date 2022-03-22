@@ -18,6 +18,10 @@ import Afiliacao from "./views/Afiliacao/";
 import AfiliacaoCreate from "./views/Afiliacao/Create";
 import ViewProdutoServico from "./views/ProdutoServico/ViewProdutoServico";
 
+import CreateUsersAfiliada from "./views/Afiliada/CreateUsers";
+import CreateUsersAutonoma from "./views/Autonoma/CreateUsers";
+import Concluido from "./views/Concluido";
+
 import "./assets/css/contato.css";
 import "./assets/css/global.css";
 import "./assets/css/index.css";
@@ -51,7 +55,9 @@ function App() {
         <Route path="/Afiliacao" element={<Afiliacao/>} />
         <Route path="/Afiliacao-Create" element={<AfiliacaoCreate/>} />
         <Route path="/Afiliacao-Update/:id" element={<AfiliacaoCreate/>} />
-
+        <Route path="/Afiliada_cadastro" element={<CreateUsersAfiliada></CreateUsersAfiliada>}/>
+        <Route path="/Autonoma_cadastro" element={<CreateUsersAutonoma></CreateUsersAutonoma>}/>
+        <Route path="/cadastro_concluido" element={<Concluido></Concluido>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

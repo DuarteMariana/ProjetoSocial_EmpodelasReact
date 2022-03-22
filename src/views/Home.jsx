@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -29,8 +30,8 @@ export default function Home() {
                <div id="fraseMain" className="container-fluid">
                     <h1 className="sobrenos">Nada mais forte do que uma mulher que se empodera!<br/> Seja uma "EmpoDelas"</h1>
                     <h3 className="textoConvite"><strong>GOSTARIA DE PARTICIPAR DESSE PROJETO? FAÇA O PRÉ-CADASTRO!</strong></h3>
-                    <button type="button" id="bt1" className="btn btn-danger">Autônoma</button>
-                    <button type="button" id="bt1" className="btn btn-danger">Afiliada</button>
+                    <button type="button" id="bt1" className="btn btn-danger"><Link to="/Afiliada_cadastro">Afiliada</Link></button>
+                    <button type="button" id="bt1" className="btn btn-danger"><Link to="/Autonoma_cadastro">Autônoma</Link></button>
                 </div>
             </main>
         </section>

@@ -23,8 +23,6 @@ export default function Index() {
             getAllAfiliacao(id_afiliacao);
         })
     }
-    
-    
 
     return (
         <div className="table-responsive-sm">
