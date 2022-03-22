@@ -13,7 +13,7 @@
   background-color: #FFDE59;
   width: 100%;
   margin: 0px;
-  padding: 0px;
+  padding: 15px;
   height: auto;
 }
 
@@ -46,7 +46,7 @@ li > a:hover{
   color: #ff1616;
   text-decoration: none;
   font-weight: bold;
-  border-top: #ff1616 solid 3px;
+  border-top: #ff1616 solid 2px;
 }
 
 
