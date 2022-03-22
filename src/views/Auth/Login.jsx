@@ -43,26 +43,26 @@ function Login(){
     }
 
     return(
-        <div style={{textAlign: "center"}}>
+        <div className="main">
             <h1>{isRegistrando? "Registre-se": "Faça o seu login!"}</h1>
-            <form className="form" onSubmit={submitHandler}>
-                <label>E-mail
+            <form className="form formLogin" onSubmit={submitHandler}>
+                <label>E-mail: <br />
                     <input type="email" name="" id="email" />
                 </label><br />
-                <label>Senha
+                <label>Senha: <br />
                     <input type="password" name="" id="password" />
                 </label><br />
-                <label>Perfil
+                <label>Perfil: <br />
                     <select name="rol" id="rol">
                         <option value="autonoma">Autônoma</option>
                         <option value="afiliada">Afiliada</option>
                     </select><br />
                 </label><br />
 
-                <input type="submit" value={isRegistrando? "Registrar" : "Iniciar sessão"} />
+                <input type="submit" className="btn btn-warning" value={isRegistrando? "Registrar" : "Iniciar sessão"} />
             </form>
 
-            <button onClick={() => setIsRegistrando(!isRegistrando)}>
+            <button className="btn btn-primary" onClick={() => setIsRegistrando(!isRegistrando)}>
                 {isRegistrando? "Já tenho uma conta" : "Quero me registrar"}
             </button>
         </div>
