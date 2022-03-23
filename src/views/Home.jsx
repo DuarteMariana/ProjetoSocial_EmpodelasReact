@@ -10,11 +10,7 @@ export default function Home() {
             </div>
         </div>
         <section className="secaoVideo">
-            <iframe className="videoYoutube" width="560" height="315" src="https://www.youtube.com/embed/m0MeryPVWRY" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; 
-            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
+        <iframe className="videoYoutube" width="560" height="315" src="https://www.youtube.com/embed/cUk0gjxNSLg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div className="textoVideo">
                 <p>
                     Uma solução para mulheres
