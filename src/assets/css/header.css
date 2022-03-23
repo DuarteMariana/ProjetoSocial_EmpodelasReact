@@ -1,15 +1,20 @@
+
+
 *{
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
-    border: 1xp solid blue;
+    
   }
+
   
+  
+
   /*-------------------CODIGO-----------*/
   
   @font-face{
-    font-family: 'playlist-script';
-    src: url('../fontes/playlist-script.otf');
+    font-family: 'Playlist';
+    src: url('playlist-script.otf');
   }
   
   @font-face{
@@ -45,7 +50,7 @@
   }
   
   #texto-logo{
-    font-family: 'playlist-script';
+
     font-size: 40px;
     color: #ff1616;
     white-space: nowrap;
@@ -102,7 +107,7 @@
   }
   
   .footer {
-    margin-top: 2%;
+    margin-top: 5%;
     width:100%;
     background-color: #FFDE59;
     text-align: center;

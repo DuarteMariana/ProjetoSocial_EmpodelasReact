@@ -6,7 +6,7 @@ import {getFirestore, doc, setDoc} from "firebase/firestore"
 
 const auth = getAuth(firebaseApp);
 
-function Login(){
+function LoginAdmin(){
     const firestore = getFirestore(firebaseApp);
     const [isRegistrando, setIsRegistrando] = useState(false);
     const navigate = useNavigate();
@@ -62,9 +62,11 @@ function Login(){
                 <input type="submit" className="btn btn-warning" value={isRegistrando? "Registrar" : "Iniciar sessão"} />
             </form>
 
-            
+            <button className="btn btn-primary" onClick={() => setIsRegistrando(!isRegistrando)}>
+                {isRegistrando? "Já tenho uma conta" : "Quero me registrar"}
+            </button>
         </div>
     )
 }
 
-export default Login;
+export default LoginAdmin;
