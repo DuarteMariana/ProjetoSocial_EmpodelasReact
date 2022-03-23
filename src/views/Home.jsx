@@ -73,7 +73,6 @@ export default function Home() {
                 <div class="jumbotron-pre">
                     <h1 class="display-6">GOSTARIA DE PARTICIPAR DESSE PROJETO? </h1>
                     <p class="lead"></p>
-                    <hr class="my-4"/>
                     <h3 className="textoConvite"><strong> FAÇA O PRÉ-CADASTRO!</strong></h3>
                     
                 </div>
