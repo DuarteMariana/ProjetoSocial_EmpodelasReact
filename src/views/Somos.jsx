@@ -25,7 +25,7 @@ export default function Somos() {
         </h2>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-                Em análise dos problemas e dificuldades encontrados na região, buscamos proporcionar soluções que reduzam a taxa de vulnerabilidade e aumente respectivamente a quantidade de mulheres ativas no mercado, seja por meio do empreendimento próprio, seja retornando ao mundo do trabalho, nossa visão é implementar ações capazes de capacita-las, empondera-las a ponto de transformar novas realidades.
+                Em análise dos problemas e dificuldades encontrados na região, buscamos proporcionar soluções que reduzam a taxa de vulnerabilidade e aumente respectivamente a quantidade de mulheres ativas no mercado, seja por meio do empreendimento próprio, seja retornando ao mundo do trabalho, nossa visão é implementar ações capazes de capacita-las, empodera-las a ponto de transformar novas realidades.
             </div>
         </div>
     </div>
